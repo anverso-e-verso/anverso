@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {{ content }}
+
+  {% if site.paginate %}
+    {% assign posts = paginator.poems %}
+  {% else %}
+    {% assign posts = site.poems %}
+  {% endif %}
+	
+
+  {%- if posts.size > 0 -%}
+    <ul class="post-list">
+      {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+      {%- for post in posts -%}
+      <li>
+        <h2>
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h2>
+        <span class="poem-author-list home-author-list">
+		Por 
+        {% for author in post.author %}
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a class="poem-author" itemprop="name" href="/authors/{{author.id}}">{{ author.name }}</a></span>
+            {%- if forloop.last == false %}, {% endif -%}
+        {% endfor %}
+		</span>
+          <div class="poem-excerpt post-excerpt">{{ post.excpt}}</div>
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    {% if site.paginate %}
+      <div class="pager">
+        <ul class="pagination">
+        {%- if paginator.previous_page %}
+          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+          <li><div class="current-page">{{ paginator.page }}</div></li>
+        {%- if paginator.next_page %}
+          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+        </ul>
+      </div>
+    {%- endif %}
+
+  {%- endif -%}
+  
+  {%- if jekyll.environment == "production" and site.disqus -%}
+    <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
+  {%- endif -%}
+</div>

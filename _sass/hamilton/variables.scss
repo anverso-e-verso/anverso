@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'Jomolhari';
+	src: url('../../assets/fonts/Jomolhari-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Garamond';
+	src: url('../../assets/fonts/EBGaramond-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../../assets/fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+// Fonts
+$base-font-family: "Open Sans" !default;
+$reading-font-family: "Garamond" !default;
+$headline-font-family: "Jomolhari" !default;
+$code-font-family:  Inconsolata !default;
+$handwriting-font-family: 'Jomolhari' !default;
+$base-font-size:    18px !default;
+$base-line-height:  1.5 !default;
+
+// Layouts
+$spacing-unit:      2rem !default;
+$content-width:     1100px !default;
+
+$on-small:          600px !default;
+$on-medium:         900px !default;
+$on-large:          1100px !default;

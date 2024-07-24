@@ -1,0 +1,48 @@
+---
+layout: page-nosidebar
+---
+
+{{ content }}
+
+{% comment %} Check the type of archive {% endcomment %}
+
+{%- if page.type == 'authors' -%}
+  {%- assign taxonomies = site.authors -%}
+{%- endif -%}
+
+
+<div class="taxonomies-wrapper">
+  <ul class="author-taxonomies">
+      {%- for taxonomy in taxonomies -%}
+        {%- assign taxonomy_name = taxonomy.auth_name -%}
+        {%- assign slugified_taxonomy_name = taxonomy_name | slugify -%}
+		{%- assign slugified_taxonomy_shortname = taxonomy.short_name | slugify -%}
+        {%- assign posts = site.poems | where: 'authorid', taxonomy.authorid -%}
+			{%- if posts.size > 0 -%}
+			  <li>
+				<a class="author-taxonomy" href="/authors/{{ taxonomy.authorid | relative_url }}">
+				  <span>
+					  {{ taxonomy_name }}
+				  </span>
+				  <span class="taxonomy-count">: {{ posts.size }}
+				  {%- if posts.size > 1 -%}
+					  {{ " poemas" }}
+					{%- else -%}
+					  {{ " poema" }}
+					{%- endif -%}
+					</span>
+				</a>
+			  </li>
+		  {%- endif -%}
+      {%- endfor -%}
+  </ul>
+</div>
+
+
+
+<script>
+  function backToTop() {
+    const main = document.getElementById("site-main");
+    main.scrollTop = 0;
+  }
+</script>
