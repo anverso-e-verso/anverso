@@ -1,6 +1,7 @@
 ---
 title: "Heraclitus meets Pascal"
-tags: filosofia
+it_title: true
+categories: português nenhum-mistério
 author: [{
 			name: "Paulo Henriques Britto",
 			id: "henriques-britto"

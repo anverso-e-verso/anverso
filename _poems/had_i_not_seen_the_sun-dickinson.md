@@ -1,6 +1,6 @@
 ---
 title: "Had I not seen the Sun"
-tags: natureza
+categories: inglês
 author: [{
 			name: "Emily Dickinson",
 			id: "dickinson"

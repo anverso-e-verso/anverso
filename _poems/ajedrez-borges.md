@@ -1,6 +1,6 @@
 ---
 title: "Ajedrez"
-tags: xadrez metafísica
+categories: espanhol
 author: [{
 			name: "Jorge Luis Borges",
 			id: "borges"

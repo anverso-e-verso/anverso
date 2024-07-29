@@ -26,6 +26,12 @@
 }
 
 @font-face {
+	font-family: 'Crimson Text';
+	font-style: italic;
+	src: url('../../assets/fonts/CrimsonText-Italic.ttf') format('truetype');
+}
+
+@font-face {
 	font-family: 'Alegreya SC';
 	src: url('../../assets/fonts/AlegreyaSC-Regular.ttf') format('truetype');
 }
@@ -38,6 +44,22 @@
 @font-face {
 	font-family: 'Cardo';
 	src: url('../../assets/fonts/Cardo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Cardo';
+	font-weight: bold;
+	src: url('../../assets/fonts/Cardo-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Cardo';
+	font-style: italic;
+	src: url('../../assets/fonts/Cardo-Italic.ttf') format('truetype');
+}
+
+.ittext {
+	font-style: italic;
 }
 
 .poem-title {
@@ -57,7 +79,7 @@
 	font-size: $base-font-size * 1.6;
 }
 
-.poem p {
+.poem > p {
 	font-family: 'Cardo';
 	font-size: $base-font-size * 1.2;
 	text-align: left;
@@ -80,7 +102,7 @@
 
 .site-body-nosidebar {
   display: grid;
-  overflow: hidden;
+   /*overflow: hidden;*/
 
 }
 
@@ -163,4 +185,21 @@
       }
     }
   }
+}
+
+// epigraphs
+
+.poem > blockquote {
+	border: none;
+	text-align: right;
+	margin-bottom: 4em;
+	
+	p {
+		font-style: normal;
+		text-align: right;
+		
+		em {
+			font-style: italic;
+		}
+	}
 }

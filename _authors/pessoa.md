@@ -5,4 +5,5 @@ authorid: "pessoa"
 pic: "pessoa.jpg"
 ---
 
-Sonhou
+Fernando Pessoa foi um poeta, filósofo, dramaturgo, ensaísta, tradutor, publicitário, astrólogo, inventor,
+ empresário, correspondente comercial, crítico literário e comentarista político português.

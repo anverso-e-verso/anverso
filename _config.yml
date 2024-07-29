@@ -9,6 +9,7 @@ plugins:
   - jekyll-tagories
 
 skin: sunrise
+destination: ../anverso-deploy
 
 collections:
   authors:
@@ -21,8 +22,11 @@ pagination:
   enabled: true
   debug: false
   collection: 'poems'
-
   per_page: 10
+  permalink: '/page/:num/'
+  sort_field: 'date'
+  sort_reverse: true
+  title: ':title - página :num de :max'
 
 defaults:
   - scope:

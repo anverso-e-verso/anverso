@@ -1,6 +1,6 @@
 ---
 title: "El golem"
-tags: judaísmo
+categories: espanhol
 author: [{
 			name: "Jorge Luis Borges",
 			id: "borges"
@@ -21,7 +21,7 @@ guarde en letras y sílabas cabales.
 
 Adán y las estrellas lo supieron \
 en el Jardín. La herrumbre del pecado \
-(dicen los cabalistas) lo ha borradov
+(dicen los cabalistas) lo ha borrado \
 y las generaciones lo perdieron.
 
 Los artificios y el candor del hombre \
@@ -59,7 +59,7 @@ a la vasta criatura apodó Golem; \
 estas verdades las refiere Scholem \
 en un docto lugar de su volumen.)
 
-El rabí le explicaba el universo
+El rabí le explicaba el universo \
 "esto es mi pie; esto el tuyo, esto la soga." \
 y logró, al cabo de años, que el perverso \
 barriera bien o mal la sinagoga.

@@ -20,7 +20,7 @@ layout: page-nosidebar
         {%- assign posts = site.poems | where: 'authorid', taxonomy.authorid -%}
 			{%- if posts.size > 0 -%}
 			  <li>
-				<a class="author-taxonomy" href="/authors/{{ taxonomy.authorid | relative_url }}">
+				<a class="author-taxonomy" href="/authors{{ taxonomy.authorid | relative_url }}">
 				  <span>
 					  {{ taxonomy_name }}
 				  </span>
@@ -42,7 +42,7 @@ layout: page-nosidebar
 
 <script>
   function backToTop() {
-    const main = document.getElementById("site-main");
-    main.scrollTop = 0;
+    document.body.scrollTop = 0; // For Safari
+	document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   }
 </script>

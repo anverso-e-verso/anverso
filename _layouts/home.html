@@ -6,11 +6,9 @@ layout: default
 
   {{ content }}
 
-  {% if site.paginate %}
-    {% assign posts = paginator.poems %}
-  {% else %}
-    {% assign posts = site.poems %}
-  {% endif %}
+
+  {% assign posts = paginator.posts %}
+
 	
 
   {%- if posts.size > 0 -%}
@@ -31,12 +29,11 @@ layout: default
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
 		</span>
-          <div class="poem-excerpt post-excerpt">{{ post.excpt}}</div>
+          <div class="poem-excerpt post-excerpt">{{ post.excpt }}</div>
       </li>
       {%- endfor -%}
     </ul>
 
-    {% if site.paginate %}
       <div class="pager">
         <ul class="pagination">
         {%- if paginator.previous_page %}
@@ -53,8 +50,6 @@ layout: default
         </ul>
       </div>
     {%- endif %}
-
-  {%- endif -%}
   
   {%- if jekyll.environment == "production" and site.disqus -%}
     <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>

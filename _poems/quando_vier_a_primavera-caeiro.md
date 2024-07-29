@@ -1,7 +1,6 @@
 ---
 title: "Quando vier a Primavera"
-tags: natureza primavera morte
-categories: poemas-inconjuntos
+categories: português poemas-inconjuntos alberto-caeiro
 author: [{
 			name: "Alberto Caeiro",
 			id: "pessoa"
