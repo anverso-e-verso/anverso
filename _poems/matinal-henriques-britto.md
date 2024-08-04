@@ -21,7 +21,7 @@ parado no meio do mundo
 tantas coisas se fazem conceber \
 fora do tempo e do espaço \
 até que o instante se dissolva \
-enfim em mil e um pedaçõs
+enfim em mil e um pedaços
 
 feito esses furos de pregos \
 numa parede vazia \
