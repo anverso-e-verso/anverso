@@ -1,6 +1,5 @@
 ---
 auth_name: James Augustine Joyce
-bio: "Grande nome da literatura modernista"
 authorid: "joyce"
 pic: "joyce.jpg"
 ---

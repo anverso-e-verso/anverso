@@ -1,6 +1,5 @@
 ---
 auth_name: Jorge Luis Borges
-bio: "Maior escritor argentino"
 authorid: "borges"
 pic: "borges.jpg"
 ---
