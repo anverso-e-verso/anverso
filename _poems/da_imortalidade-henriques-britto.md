@@ -18,9 +18,9 @@ já não traga a ninguém nenhum alento.
 Nesse dia, por ora distante, \
 de silente e tardio entendimento, \
 o que era só ruído antes \
-se deiará gravar, com traço lento
+se deixará gravar, com traço lento
 
 e firme, numa bela partitura \
 a ser lida por vocês, \
 da geração ainda mais futura \
-que a brirem a pasta AX293.
+que abrirem a pasta AX293.

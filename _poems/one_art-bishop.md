@@ -1,6 +1,6 @@
 ---
 title: "One Art"
-categories: inglês
+categories: inglês Geography-III
 author: [{
 			name: "Elizabeth Bishop",
 			id: "bishop"

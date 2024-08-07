@@ -6,7 +6,7 @@ author: [{
 			id: "bishop"
 		}]
 authorid: "bishop"
-excpt: "Reality Travels"
+excpt: "We’d rather have the iceberg than the ship"
 ---
 We’d rather have the iceberg than the ship, \
 although it meant the end of travel. \

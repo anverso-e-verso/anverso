@@ -76,12 +76,12 @@
 	font-family: 'Alegreya OPT';
 	font-feature-settings: 'ss01';
 	text-align: left;
-	font-size: $base-font-size * 1.6;
+	font-size: $base-font-size * 1.4;
 }
 
 .poem > p {
 	font-family: 'Cardo';
-	font-size: $base-font-size * 1.2;
+	font-size: $base-font-size;
 	text-align: left;
 	margin-bottom: $base-font-size * 1.2
 }
@@ -97,7 +97,7 @@
 	font-family: 'Garamond';
 }
 .home-author-list {
-	font-size: $base-font-size * 0.8;
+	font-size: $base-font-size;
 }
 
 .site-body-nosidebar {
@@ -169,10 +169,10 @@
       }
 	.poem-excerpt {
 		margin-bottom: 0;
-      @include relative-font-size(1.0);
+      @include relative-font-size(1.2);
 
       @media screen and (min-width: $on-large) {
-        @include relative-font-size(1.1);
+        @include relative-font-size(1.3);
       }
 	}
     }
