@@ -12,7 +12,7 @@ excpt: "To wring words out of one's most wordless states"
 To wring words out of one's most wordless states \
 bring chaos to a particular order \
 of the mind: to mince mind back to brute matter \
-the ngrind it to dust, and from this dust bake \
+then grind it to dust, and from this dust bake \
 subtle blocks of sound or shape or simply \
 space. And what one builds with these blocks, or bricks \
 is what one knows cannot be reached or caught \

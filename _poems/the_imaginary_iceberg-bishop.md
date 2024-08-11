@@ -1,6 +1,6 @@
 ---
 title: "The Imaginary Iceberg"
-categories: inglês
+categories: inglês north-and-south
 author: [{
 			name: "Elizabeth Bishop",
 			id: "bishop"

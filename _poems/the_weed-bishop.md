@@ -1,6 +1,6 @@
 ---
-title: "The weed"
-categories: inglês
+title: "The Weed"
+categories: inglês north-and-south
 author: [{
 			name: "Elizabeth Bishop",
 			id: "bishop"
