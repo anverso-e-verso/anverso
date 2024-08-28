@@ -6,7 +6,7 @@ author: [{
 			id: "stevens"
 		}]
 authorid: "stevens"
-excpt: "What word have you, interpreters, of men Who in the tomb of heaven walk by night,"
+excpt: "What word have you, interpreters, of men who in the tomb of heaven walk by night,"
 ---
 What word have you, interpreters, of men \
 Who in the tomb of heaven walk by night, \

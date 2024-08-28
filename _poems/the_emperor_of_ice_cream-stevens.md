@@ -6,7 +6,7 @@ author: [{
 			id: "stevens"
 		}]
 authorid: "stevens"
-excpt: "Call the roller of big cigars, The muscular one, and bid him whip"
+excpt: "Call the roller of big cigars, the muscular one, and bid him whip"
 ---
 Call the roller of big cigars, \
 The muscular one, and bid him whip \

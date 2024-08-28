@@ -6,7 +6,7 @@ author: [{
 			id: "stevens"
 		}]
 authorid: "stevens"
-excpt: "The disbeliever walked the moonlit place, Outside of gates of hammered serafin,"
+excpt: "The disbeliever walked the moonlit place, outside of gates of hammered serafin,"
 ---
 The disbeliever walked the moonlit place, \
 Outside of gates of hammered serafin, \
