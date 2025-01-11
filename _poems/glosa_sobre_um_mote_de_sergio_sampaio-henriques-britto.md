@@ -1,6 +1,6 @@
 ---
 title: "Glosa sobre um mote de Sérgio Sampaio"
-categories: inglês nenhum-mistério
+categories: português nenhum-mistério
 author: [{
 			name: "Paulo Henriques Britto",
 			id: "henriques-britto"
