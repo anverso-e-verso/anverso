@@ -19,6 +19,6 @@ senão pra passar, passar como passa \
 nota após nota formando uma linha \
 que não se nota senão como um todo \
 que não se ouve passar, tal como um dia \
-passa sem dar a impressão e de novo \
+passa sem dar a impressão que de novo \
 um dia deu lugar a outro, e sim \
 que apenas continue a melodia.
