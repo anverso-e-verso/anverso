@@ -13,7 +13,7 @@ Não só em arte: em tudo, nas pequenas \
 coisas que não são pequenas, em tudo \
 que fazemos sem pensar, ou que ao menos \
 devíamos jamais fazer senão \
-com a cabeça em oturo lugar. Lugar \
+com a cabeça em outro lugar. Lugar \
 nenhum é bom pra se ficar, é bom \
 senão pra passar, passar como passa \
 nota após nota formando uma linha \
