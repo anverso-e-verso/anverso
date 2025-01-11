@@ -6,7 +6,7 @@ author: [{
 			id: "henriques-britto"
 		}]
 authorid: "henriques-britto"
-excpt: "Naquela página antiga não se lê mais o que escreveu"
+excpt: "Nenhuma Arte - I, Caderno - XIV"
 ---
 
 ## (NENHUMA ARTE, I)
