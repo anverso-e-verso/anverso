@@ -79,6 +79,13 @@
 	font-size: $base-font-size * 1.4;
 }
 
+.poem h2 {
+	font-family: 'Cardo';
+	font-size: $base-font-size;
+	margin-bottom: $base-font-size * 1.6;
+	font-weight: 600;
+}
+
 .poem > p {
 	font-family: 'Cardo';
 	font-size: $base-font-size;
